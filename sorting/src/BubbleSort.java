@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class BubleSort {
+public class BubbleSort {
 
 	public static void main(String[] args) {
 		int[] elements = new int[] { -10, 100, 50, -30, 20, 17, 1000, -70 };
