@@ -17,8 +17,8 @@ public class InsertionSort {
 		int[] elements = new int[] { 20, 35, -15, 7, 55, 1, -22 };
 		int loopCounter = 0;
 		for (int unsortedIndex = 1; unsortedIndex < elements.length; unsortedIndex++) {
-			int currentElement  = elements[unsortedIndex];
 
+			int currentElement  = elements[unsortedIndex];
 			int index;
 			for (index =  unsortedIndex; index > 0 && elements[index - 1] > currentElement; index--) {
 				elements[index] =  elements[index - 1];
@@ -27,7 +27,6 @@ public class InsertionSort {
 			elements[index] =  currentElement;
 			loopCounter++;
 		}
-
 
 		System.out.println("Ordered elements: " + Arrays.toString(elements));
 		System.out.println("Iterations: " + loopCounter);
